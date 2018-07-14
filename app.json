@@ -1,0 +1,48 @@
+
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/select/select",
+    "pages/templates/templates",
+    "pages/detail/detail_yangxuzhi/detail_yangxuzhi",
+    "pages/detail/detail_yinxuzhi/detail_yinxuzhi",
+    "pages/detail/detail_qixuzhi/detail_qixuzhi",
+    "pages/detail/detail_tanshizhi/detail_tanshizhi",
+    "pages/detail/detail_shierzhi/detail_shierzhi",
+    "pages/detail/detail_xueyuzhi/detail_xueyuzhi",
+    "pages/detail/detail_tebingzhi/detail_tebingzhi",
+    "pages/detail/detail_qiyuzhi/detail_qiyuzhi",
+    "pages/detail/detail_pinghezhi/detail_pinghezhi",
+    "pages/title_women/title_women",
+    "pages/title_man/title_man",
+    "pages/result/result"
+  
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#8B6914",
+    "navigationBarTitleText": "中医体质测评",
+    "navigationBarTextStyle":"#fff"
+  }
+  ,"tabBar":{
+    "color": "#dddddd",
+    "selectedColor": "#1AFA29",
+    "borderStyle": "black",
+    "backgroundColor": "#8B6914" ,
+     "list": [
+      {
+      "text": "首页",
+      "pagePath": "pages/index/index",
+      "iconPath": "image/index_select.png",
+      "selectedIconPath": "image/index.png"
+    },
+    {
+      "text": "体质说明",
+      "pagePath": "pages/select/select",
+      "iconPath": "image/select_select.png",
+      "selectedIconPath": "image/select .png"
+    }
+     ]
+  }
+}

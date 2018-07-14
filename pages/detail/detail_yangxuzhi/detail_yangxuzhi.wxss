@@ -1,0 +1,38 @@
+/* @import "../../templates/templates.wxss"; */
+#btn{
+   margin-top: 5%;
+   width: 400px;
+}
+.bright789_view_hide{  
+ display: none;  
+}  
+.bright789_view_show{  
+ display: block;  
+}
+#yaoshiyindao{
+
+}
+.previewimg{
+    margin: 20px 0; 
+    text-align: center;  
+}
+.img{
+  width: 150px;
+  height: 150px;
+}
+.weixinhao{
+  text-align: center;
+}
+.weixin
+{
+   font-weight: bold;
+   font-size: 20px;    
+}
+.jieyu{
+  margin-top: 5%;
+  padding: 0 10px;
+}
+.fonts
+{
+  font-family:"楷体"; font-size:20px; font-style:italic;
+}

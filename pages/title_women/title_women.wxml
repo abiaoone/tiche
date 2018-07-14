@@ -1,0 +1,61 @@
+<view class="container">
+  <view class="score">
+    <label>{{yangxuzhi}} {{yinxuzhi}} {{qixuzhi}} {{quyuzhi}} {{xuyuzhi}} {{tebingzhi}} {{pinghezhi}} {{shirezhi}} {{maxIndex}}</label>
+  </view>
+  <view class="title_index">
+    <label class="header_title">第{{index}}题/共{{count}}题</label>
+  </view>
+
+  <view class="content_title">
+    <block wx:if="{{index<=67}}">
+      <view class="center">
+        <label class="content"> {{title[ titleCount]}} </label>
+      </view>
+
+    </block>
+
+  </view>
+  <view class="{{index<40?'bright789_view_show':'bright789_view_hide'}}">
+    <button id="btn" data-value="1" type="primary" size="{{default}}" value="1" loading="{{load}}" bindtap="tijiao">
+      没有(根本不)
+    </button>
+
+    <button id="btn" data-value="2" type="primary" size="{{default}}" value="2" loading="{{load}}" bindtap="tijiao">
+      很少(有一点)
+    </button>
+
+    <button id="btn" data-value="3" type="primary" size="{{default}}" value="3" loading="{{load}}" bindtap="tijiao">
+      有时(有些)
+    </button>
+
+    <button id="btn" data-value="4" type="primary" size="{{default}}" value="4" loading="{{load}}" bindtap="tijiao">
+      经常(相当)
+    </button>
+
+    <button id="btn" data-value="5" type="primary" size="{{default}}" value="5" loading="{{load}}" bindtap="tijiao">
+      总是(非常)
+    </button>
+
+  </view>
+ 
+  <view class="{{index==40?'bright789_view_show':'bright789_view_hide'}}">
+    <view class="select">
+      <view class="select_age">请选择您的年龄</view>
+      <picker bindchange="bindPickerChange" value="{{array[ageIndex]}}" range="{{array}}">
+        <view class="select_detail">
+          当前选择(单击下拉)：
+          <label class="picker">{{array[ageIndex]}}</label>
+        </view>
+      </picker>
+    </view>
+    <form bindsubmit='submitForm'>
+      <button id="btn" formType="submit" type="primary" size="{{default}}" loading="{{load}}" bindtap="tijiao">
+        提交
+      </button>
+    </form>
+  </view>
+  
+   <view class="jingdutiao">
+       <progress percent="{{propress}}" show-info  stroke-width="12" color="green" />
+  </view>
+</view>

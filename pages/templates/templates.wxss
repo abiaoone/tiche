@@ -1,0 +1,10 @@
+#btn{
+   margin-top: 5%;
+   width: 330px;
+}
+.bright789_view_hide{  
+ display: none;  
+}  
+.bright789_view_show{  
+ display: block;  
+} 

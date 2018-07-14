@@ -1,0 +1,31 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="header_logo">
+    <image class="img_logo" src='/image/logons.png'></image>
+  </view>
+  <view class="content">
+    <view>
+      <label class="content_row">5分钟给身体做个体检</label>
+    </view>
+    <view class="sex">
+      <label class="content_sex">请选择您的性别</label>
+    </view>
+  </view>
+  <view class="content_button">
+    <button id="btn" type="primary" data-value="man" size="{{default}}" loading="{{load}}" bindtap="setGoToTitleBYman">男</button>
+    <button id="btn" type="primary" data-value="women" size="{{default}}" loading="{{load}}" bindtap="setGoToTitleBYwomen">女</button>
+  </view>
+  <view class="resoure">
+    <view>
+      <label class="resoure_gengju">根据中华中医药学会</label>
+    </view>
+    <view class="sex">
+      <label class="resoure_zhiding">《中医体质分类与判定表》制定</label>
+    </view>
+     <label class="detail" bindtap="tizhiDetail">查看体质说明</label>
+  </view>
+
+  <view class="content_detail">
+     <button  class='kefus' plain="true" open-type="contact" ><image class="kefu" src='/image/kefu.png'></image></button>
+  </view>
+</view>

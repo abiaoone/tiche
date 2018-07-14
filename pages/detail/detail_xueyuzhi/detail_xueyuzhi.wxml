@@ -1,0 +1,51 @@
+
+<!-- <import src="../../templates/templates.wxml" />
+<template is="muban" data="{{...item}}">
+       
+</template> -->
+<view class="container">
+      <view class="header">
+        <label class="header_frist">{{name}}</label> 
+      </view>
+      <view class="content_button">
+           <button id="btn" type="primary" size="{{default}}"  loading="{{load}}" bindtap="onChangetizhi">体质说明</button>
+              <view class="{{tizhi?'bright789_view_show':'bright789_view_hide'}}">
+                      {{tishishouming}} 
+              </view>
+           <button id="btn" type="primary" size="{{default}}"  loading="{{load}}" bindtap="onChangeyihuan">易患病症</button>
+            <view class="{{yihuan?'bright789_view_show':'bright789_view_hide'}}">
+                    {{yihuanbingzheng}} 
+            </view>
+           <button id="btn" type="primary" size="{{default}}"  loading="{{load}}" bindtap="onChangeziran">自然适应能力</button>
+             <view class="{{ziran?'bright789_view_show':'bright789_view_hide'}}">
+                    {{ziransheying}} 
+             </view>
+          <button id="btn" type="primary" size="{{default}}"  loading="{{load}}" bindtap="onChangesheshi">慎食食物</button>
+             <view class="{{sheshi?'bright789_view_show':'bright789_view_hide'}}">
+                    {{shengshishiwu}} 
+             </view>
+          <button id="btn" type="primary" size="{{default}}"  loading="{{load}}" bindtap="onChanegtiyu">体育锻炼</button>
+              <view class="{{tiyu?'bright789_view_show':'bright789_view_hide'}}">
+                    {{tiyuduanlian}} 
+              </view>
+          <button id="btn" type="primary" size="{{default}}"  loading="{{load}}" bindtap="onChanegshenghou">生活建议</button>
+              <view class="{{shenghou?'bright789_view_show':'bright789_view_hide'}}">
+                    {{shenghoujianyi}} 
+              </view>
+           <button id="btn" type="warn"  size="{{default}}"  loading="{{load}}" bindtap="onChanegyaoshang">药师定制方案</button>
+              <view class="{{yaoshang?'bright789_view_show':'bright789_view_hide'}}" id="yaoshiyindao">
+                      <view class="jieyu">
+                             <text class="fonts">由于每个人的体质有差异，我们安排了专业的药师结合舌诊手诊进一步确定你的体质类型并免费给予专业化药膳调理定制方案</text>
+                      
+                      </view>
+                      <view wx:for="{{imgalist}}" wx:for-item="image"  class="previewimg">    
+                           <image src="{{image}}" data-src="{{image}}" bindtap="previewImage" class='img'></image>    
+                     </view> 
+                     <view class="weixinhao">
+                            <label class="weixin">欢迎加入公众号：健康好森活</label>
+                     </view>
+              </view>   
+          <button id="btn" type="default" size="{{default}}"  loading="{{load}}" bindtap="onBack">放回首页</button>
+      </view>
+  </view>
+

@@ -1,0 +1,21 @@
+ <template name="muban"> 
+  <view class="container">
+      <view class="header">
+        <label class="header_frist">{{name}}</label> 
+      </view>
+      <view class="content_button">
+          <button id="btn" type="primary" size="{{default}}"  loading="{{load}}" bindtap="onChangeShowState">体质说明</button>
+           <view class="{{showView?'bright789_view_show':'bright789_view_hide'}}">
+                  {{text}} 
+          </view>
+          <button id="btn" type="primary" size="{{default}}"  loading="{{load}}" bindtap="setLoad">易患病症</button>
+          <button id="btn" type="primary" size="{{default}}"  loading="{{load}}" bindtap="setLoad">自然适应能力</button>
+          <button id="btn" type="primary" size="{{default}}"  loading="{{load}}" bindtap="setLoad">饮食调养</button>
+          <button id="btn" type="primary" size="{{default}}"  loading="{{load}}" bindtap="setLoad">慎食食物</button>
+          <button id="btn" type="primary" size="{{default}}"  loading="{{load}}" bindtap="setLoad">体育锻炼</button>
+          <button id="btn" type="primary" size="{{default}}"  loading="{{load}}" bindtap="setLoad">药膳建议</button>
+          <button id="btn" type="primary" size="{{default}}"  loading="{{load}}" bindtap="setLoad">生活建议</button>
+          <button id="btn" type="default" size="{{default}}"  loading="{{load}}" bindtap="setLoad">放回首页</button>
+      </view>
+  </view>
+ </template>

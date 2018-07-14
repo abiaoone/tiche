@@ -1,0 +1,62 @@
+/**index.wxss**/
+.container{
+      background-image: url('http://ab.lingw09.com/index.jpg');
+      background-size:100% 100%;
+      background-repeat:no-repeat;
+      height: 625px;
+}
+.img_logo
+{
+   width: 150px;
+   height: 150px;
+}
+.content
+{
+  margin-top:-20%;  
+}
+.content_row{
+ 
+   font-weight: bold;
+}
+.sex{
+  margin-top: 5%; 
+}
+.content_sex{
+    font-weight:bold;
+    margin-left: 10%;
+}
+.content_button{
+   margin-top: -20%; 
+}
+#btn{
+  margin-top: 5%;
+  width: 330px;
+  background-color:#8B6914;
+}
+.resoure{
+  margin-top:-20%;
+  text-align: center;
+}
+.resoure_gengju{
+   font-weight: bold;
+}
+.resoure_zhiding{
+  font-weight: bold;
+}
+.detail{
+  color: #3A5FCD;
+  font-size: 17px;
+}
+.content_detail{
+  margin-top: -20%;
+  margin-left:70%;
+}
+.kefus::after{
+  background: transparent;
+  border: none;
+}
+.kefu{
+  opacity:7;
+  width: 50px;
+  height: 50px;
+}

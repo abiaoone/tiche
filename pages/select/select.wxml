@@ -1,0 +1,17 @@
+<view class="container">
+   <view class="header">
+             <label class="header_frist">体质一览</label>
+   </view>
+   <view class="content_button">
+     <button id="btn" type="primary" size="{{default}}"  loading="{{load}}" bindtap="setYangXuZhi">阳虚质</button>
+     <button id="btn" type="primary" size="{{default}}"  loading="{{load}}" bindtap="setYinXuZhi">阴虚质</button>
+     <button id="btn" type="primary" size="{{default}}"  loading="{{load}}" bindtap="setQiXuZhi">气虚质</button>
+     <button id="btn" type="primary" size="{{default}}"  loading="{{load}}" bindtap="setTangShiZhi">痰湿质</button>
+     <button id="btn" type="primary" size="{{default}}"  loading="{{load}}" bindtap="setShiReZhi">湿热质</button>
+     <button id="btn" type="primary" size="{{default}}"  loading="{{load}}" bindtap="setXueYuZhi">血瘀质</button>
+     <button id="btn" type="primary" size="{{default}}"  loading="{{load}}" bindtap="setTeBingZhi">特禀质</button>
+     <button id="btn" type="primary" size="{{default}}"  loading="{{load}}" bindtap="setQiYuZhi">气郁质</button>
+     <button id="btn" type="primary" size="{{default}}"  loading="{{load}}" bindtap="setPingHeZhi">平和质</button>
+     
+   </view> 
+</view>

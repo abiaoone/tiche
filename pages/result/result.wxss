@@ -1,0 +1,30 @@
+
+.header_title
+{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+.header_result {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+.result
+{
+  margin-top: 5%;
+}
+.header_result
+{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+#btn
+{
+   margin-top: 5%;
+  width: 330px;
+}
+.ha{
+  display: none;
+}
